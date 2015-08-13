@@ -1,0 +1,6 @@
+framework module UIMessageView {
+  umbrella header "UIMessageView-umbrella.h"
+
+  export *
+  module * { export * }
+}

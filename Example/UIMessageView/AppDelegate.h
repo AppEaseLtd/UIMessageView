@@ -1,5 +1,5 @@
 //
-//  UIViewController.h
+//  AppDelegate.h
 //  UIMessageView
 //
 //  Created by Robin Crorie on 08/12/2015.
@@ -8,6 +8,8 @@
 
 @import UIKit;
 
-@interface UIViewController : UIViewController
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end

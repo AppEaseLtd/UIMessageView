@@ -1,0 +1,14 @@
+PODS:
+  - UIMessageView (0.1.0)
+
+DEPENDENCIES:
+  - UIMessageView (from `../`)
+
+EXTERNAL SOURCES:
+  UIMessageView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  UIMessageView: 7a5884b6635fa426ab6500601ed8edf2a880f27d
+
+COCOAPODS: 0.38.0

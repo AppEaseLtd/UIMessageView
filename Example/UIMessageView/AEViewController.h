@@ -1,5 +1,5 @@
 //
-//  UIAppDelegate.h
+//  AEViewController.h
 //  UIMessageView
 //
 //  Created by Robin Crorie on 08/12/2015.
@@ -8,8 +8,6 @@
 
 @import UIKit;
 
-@interface UIAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface AEViewController : UIViewController
 
 @end

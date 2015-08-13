@@ -1,14 +1,14 @@
 //
-//  UIAppDelegate.m
+//  AppDelegate.m
 //  UIMessageView
 //
 //  Created by Robin Crorie on 08/12/2015.
 //  Copyright (c) 2015 Robin Crorie. All rights reserved.
 //
 
-#import "UIAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation UIAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
