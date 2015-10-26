@@ -214,6 +214,12 @@
 
 #pragma mark - Public interface
 
+// Returns true if the table is currently scrolled to the bottom
+- (bool)scrolledToBottom
+{
+    return self.contentOffset.y >= (self.contentSize.height - self.bounds.size.height);
+}
+
 - (void)scrollMessageViewToBottomAnimated:(BOOL)animated
 {
     NSInteger lastSectionIdx = [self numberOfSections] - 1;

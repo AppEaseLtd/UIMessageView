@@ -26,6 +26,7 @@ typedef enum _NSMessageTypingType
 
 @property (nonatomic) Class messageCellClass;
 
+- (bool)scrolledToBottom;
 - (void) scrollMessageViewToBottomAnimated:(BOOL)animated;
 
 @end
