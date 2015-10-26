@@ -16,6 +16,11 @@
 const UIEdgeInsets textInsetsMine = {6, 12, 13, 19};
 const UIEdgeInsets textInsetsOther = {6, 17, 13, 14};
 
+- (instancetype)init
+{
+    return [self init];
+}
+
 + (instancetype)dataWithText:(NSString *)text date:(NSDate *)date type:(NSMessageType)type
 {
     return [[NSMessageData alloc] initWithText:text date:date type:type];
@@ -77,8 +82,7 @@ const UIEdgeInsets imageInsetsOther = {11, 18, 16, 14};
 
 - (instancetype)initWithView:(UIView *)view date:(NSDate *)date type:(NSMessageType)type insets:(UIEdgeInsets)insets  
 {
-    self = [super init];
-    if (self)
+    if ( self = [super init] )
     {
         _view = view;
         _date = date;
